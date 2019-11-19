@@ -1,6 +1,6 @@
 module.exports = {
   title: 'gs的前端之旅',
-  description: 'Personal Website',
+  description: '1',
   serviceWorker: true, // 是否开启 PWA
   base: '/vuePress/', // 部署到github相关的配置
   markdown: {
