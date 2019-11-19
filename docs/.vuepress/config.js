@@ -1,6 +1,14 @@
 module.exports = {
-  title: 'gs的前端之旅',
-  description: '1',
+  title: 'gs的前端之路',
+  description: 'Personal Website',
+  head: [ // 注入到当前页面的 HTML <head> 中的标签
+    ['link', { rel: 'icon', href: '/images/logo.png' }],
+    ['link', { rel: 'manifest', href: '/images/logo.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/images/logo.png' }],
+    ['meta', { 'http-quiv': 'pragma', cotent: 'no-cache'}],
+    ['meta', { 'http-quiv': 'pragma', cotent: 'no-cache,must-revalidate'}],
+    ['meta', { 'http-quiv': 'expires', cotent: '0'}]
+  ],
   serviceWorker: true, // 是否开启 PWA
   base: '/vuePress/', // 部署到github相关的配置
   markdown: {
@@ -17,7 +25,7 @@ module.exports = {
         children: [
           '/vue/', // 你的md文件地址
         ]
-      }
+      },
     ]
   }
 };
