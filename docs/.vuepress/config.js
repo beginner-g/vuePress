@@ -5,6 +5,7 @@ module.exports = {
     ['link', { rel: 'icon', href: '/images/logo.png' }],
     ['link', { rel: 'manifest', href: '/images/logo.png' }],
     ['link', { rel: 'apple-touch-icon', href: '/images/logo.png' }],
+    ["link", { rel: "stylesheet", href: "/asssets/css/" }],
     ['meta', { 'http-quiv': 'pragma', cotent: 'no-cache'}],
     ['meta', { 'http-quiv': 'pragma', cotent: 'no-cache,must-revalidate'}],
     ['meta', { 'http-quiv': 'expires', cotent: '0'}]
